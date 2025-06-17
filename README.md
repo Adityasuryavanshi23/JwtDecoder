@@ -36,7 +36,7 @@ src/
 
 🚀 Live Demo
 
-If deployed, add link here https://your-jwt-decoder-app.netlify.app/
+ deployed link: https://jwt-decoder.netlify.app/
 
 💻 Tech Stack
 
