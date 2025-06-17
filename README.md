@@ -18,7 +18,7 @@ A simple JWT decoder web app built with React that lets you paste any JWT token 
 
 🔒 JWT Format Validation
 
-    fully responsive
+✅ fully responsive
 
 📁 Folder Structure
 
