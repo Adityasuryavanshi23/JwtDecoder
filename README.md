@@ -16,6 +16,8 @@ A simple JWT decoder web app built with React that lets you paste any JWT token 
 
 🧠 Auto-decode toggle
 
+🔒 JWT Format Validation
+
 📁 Folder Structure
 
 src/
@@ -26,6 +28,10 @@ src/
 ├── main.jsx
 └── index.css
 
+![Home Page](/src/assets/landingpage.png)
+
+![Page](/src/assets/landing.png)
+
 🚀 Live Demo
 
 If deployed, add link here https://your-jwt-decoder-app.netlify.app/
@@ -33,18 +39,15 @@ If deployed, add link here https://your-jwt-decoder-app.netlify.app/
 💻 Tech Stack
 
 React.js
-
 Tailwind CSS
-
 jwt-decode (npm install jwt-decode)
-
 react-hot-toast for notifications
 
 🛠️ Setup Instructions
 
 1. Clone the Repository
 
-git clone https://github.com/your-username/jwt-decoder.git
+git clone https://github.com/Adityasuryavanshi23/JwtDecoder.git
 cd jwt-decoder
 
 2. Install Dependencies
@@ -53,7 +56,7 @@ npm install
 
 3. Start Development Server
 
-npm run dev
+npm run dev 
 
 App will be running at:📍 http://localhost:5173
 
@@ -81,10 +84,6 @@ Make sure JWT is well-formed (3 parts separated by .).
 
 🧑‍💻 Author
 
-Your Name
+aditya surayavanshi
 
-Portfolio: your-portfolio-link.com
 
-📜 License
-
-MIT License © [Your Name]
