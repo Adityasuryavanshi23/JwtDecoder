@@ -41,15 +41,20 @@ src/
 💻 Tech Stack
 
 React.js
+
 Tailwind CSS
+
 jwt-decode (npm install jwt-decode)
+
 react-hot-toast for notifications
+
 
 🛠️ Setup Instructions
 
 1. Clone the Repository
 
 git clone https://github.com/Adityasuryavanshi23/JwtDecoder.git
+
 cd jwt-decoder
 
 2. Install Dependencies
