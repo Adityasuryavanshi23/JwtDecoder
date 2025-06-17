@@ -19,6 +19,8 @@ function App() {
         <h1 className="uppercase font-serif dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r to-[#12cdc7] from-[#43b972]  dark:text-white text-center mt-4 max-sm:text-2xl max-sm:text-left font-semibold tracking-widest text-3xl">
           jwt decoder
         </h1>
+
+        {/* darkmode toggle button */}
         <span
           onClick={() => setdarkmode(!darkmode)}
           className={`absolute max-sm:top-4 max-sm:right-8 max-sm:px-4 max-sm:py-1 right-14 cursor-pointer top-5 hover:scale-95 transition-all duration-200 ease-linear flex items-center px-4 py-2 gap-2  ${
@@ -34,6 +36,8 @@ function App() {
           )}
           <p className="max-sm:hidden">{darkmode ? "lightmode" : "darkmode"}</p>
         </span>
+
+        {/* {jwt token input} */}
         <JwtInput />
       </div>
     </main>

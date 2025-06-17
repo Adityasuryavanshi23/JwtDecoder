@@ -80,6 +80,7 @@ const JwtInput = () => {
   }, [jwttoken, autodecode]);
   return (
     <>
+      {/* jwt input section */}
       <div className="mt-4">
         <textarea
           name="jwttoken"
@@ -90,7 +91,9 @@ const JwtInput = () => {
           className="placeholder:capitalize border border-gray-400 bg-gray-100 dark:bg-slate-700 rounded-md shadow-lg focus:outline-none w-full min-h-32 mt-4 p-3  resize-none font-mono dark:placeholder:text-white dark:text-white"
         ></textarea>
       </div>
+
       <div>
+        {/* autodecode and buttons section */}
         <div className="flex gap-3 justify-between mt-2 min-h-10 max-sm:mt-4">
           <label
             htmlFor="checkbox"
@@ -134,6 +137,8 @@ const JwtInput = () => {
             </button>
           </div>
         </div>
+
+        {/* display decoded token component */}
         <DisplayDecodedToken
           jwttoken={jwttoken}
           decoded={decoded}

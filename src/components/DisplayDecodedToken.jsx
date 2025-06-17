@@ -7,19 +7,26 @@ const DisplayDecodedToken = ({
 }) => {
   const istokenexpired = decoded?.Payload?.exp < Math.floor(Date.now() / 1000);
   return (
+    // decoded data is showing here.....
+
     <div className="flex flex-col gap-4 dark:text-white py-2 max-sm:mt-4">
+      {/* error message */}
+
       {error && jwttoken.length > 0 && (
         <div className="text-red-500 text-xl capitalize text-center font-semibold">
           {error}
         </div>
       )}
+
       {!decoded && (
         <div className="text-xl capitalize text-center font-semibold dark:text-white">
           <h1> your decoded token will displayed here...</h1>
         </div>
       )}
+
       {decoded && !error && (
         <>
+          {/* token is expired or not message */}
           <p
             className={`${
               istokenexpired ? "text-red-500" : "text-green-500"
@@ -91,7 +98,6 @@ const DisplayDecodedToken = ({
             <p className="text-2xl max-sm:text-xl  capitalize ">signature:</p>
             <div className="min-h-24 border-gray-400 border  dark:bg-gray-700 bg-gray-200 rounded-md p-4 mt-2 shadow-lg ">
               <p className="max-w-[380px] max-sm:max-w-40">
-                {" "}
                 {decoded.signature}
               </p>
             </div>
